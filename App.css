@@ -1,0 +1,366 @@
+body{
+    /* background: linear-gradient(to right, #02ffb3, #ff8903, #ff0062); */
+    background-color: rgb(220, 227, 255);
+}
+.navbar button{
+    height: 50px;
+    width: 100px;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 800px;
+  margin-top: 5px;
+  border: 2px solid white;
+  background-color: white;
+}
+.navbar button:hover{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.container{
+    height: 700px;
+    width: 400px;
+    background: linear-gradient(to right, #ffd902, #ff8903, #ff0062);
+    margin-left: 500px;
+    margin-top: 30px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.signupcontainer{
+    height: 600px;
+    width: 400px;
+    background: linear-gradient(to right, #ffd902, #ff8903, #ff0062);
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.container input{
+   margin-left: 80px;
+   margin-top: 30px;
+   height: 50px;
+   width: 220px;
+   text-align: center;
+   border-radius: 30px 30px 30px 30px;
+   border: 2px solid #ffffff;
+   font-size: 17px;
+   background-color: white;
+   box-shadow:
+   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+   0 12.5px 10px rgba(0, 0, 0, 0.06),
+   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+   0 100px 80px rgba(0, 0, 0, 0.12);
+   outline: none;
+}
+
+ input{
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 50px;
+    width: 220px;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #ffffff;
+    font-size: 17px;
+    background-color: white;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    outline: none;
+}
+
+.signupcontainer h2{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 3px; 
+}
+.container h3{
+    
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    color: red;
+    background-color: white;
+    height: 90px;
+    width: 70%;
+    margin-left: 70px;
+    border-radius: 10px 10px 10px 10px;
+}
+.container h4{
+    text-align: center;
+}
+.container h2{
+    
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 3px;
+}
+.loginbtn{
+    height: 50px;
+    width: 100px;
+    border: 2px solid #ffffff;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 140px;
+    margin-top: 30px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background-color: white;
+    font-size: 20px;
+    
+}
+.signupbtn{
+    height: 50px;
+    width: 100px;
+    border: 2px solid #ffffff;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 140px;
+    margin-top: 30px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background-color: white;
+    font-size: 20px;
+}
+.create{
+    height: 50px;
+    width: 300px;
+    border: 2px solid #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background-color: white;
+    font-size: 20px;  
+}
+.navbar{
+    height: 70px;
+    width:100%;
+    background-color: white;
+   
+    color: white;
+    font-size: 25px;
+    box-shadow:     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(to right, #02ffb3, #fbff03, #ff0062);
+}
+.navbar h2{
+    color: white;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.profimg{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(24, 212, 24);
+    box-shadow:     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 30px 0px 0px 30px;
+}
+.profdesc{
+    height: 400px;
+    width: 700px;
+    background-color: rgb(187, 255, 185);
+    margin-left: 550px;
+    margin-top: -300px;
+    box-shadow:     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 30px 30px 0px;
+}
+.profdesc h1{
+    text-align: center;
+}
+.profdesc input{
+    border-radius: 10px 10px 10px 10px;
+  
+}
+.profsubmit{
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 50px;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid rgb(133, 250, 133);
+   color: white;
+    font-size: 17px;
+    background-color: deeppink;
+}
+
+.profsubmit:hover{
+    box-shadow:     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.profdesc input:hover{
+    box-shadow: -3px -3px 7px #ecdbdb,inset 3px 3px 5px rgba(71, 79, 92, 0.692);
+    transition: 0.5s;
+}
+.profimg input{
+border-radius: 7px 7px 7px 7px;
+
+height: 40px;
+}
+.profimg1{
+   
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 70px;
+  background: no-repeat center/cover;
+}
+.imginput{
+    display: none;
+}
+
+
+
+
+.form__title {
+    margin: 32px 0;
+    text-align: center;
+    color: #002952;
+}
+
+.form__img-input-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+/* this class is used to hide the file input */
+.visually-hidden {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Adding the focus and focus-within styles for accessibility */
+input.visually-hidden:focus + label,
+input.visually-hidden:focus-within + label {
+    outline: 8px solid rgb(255, 0, 98);
+}
+
+/* The file input is a labeled control, and since we hid it, 
+we're going to use its associated label to trigger it */
+.form-img__file-label {
+    position: absolute;
+    margin-top: 440px;
+    left: -10px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(245, 245, 231, .3);
+}
+
+.form-img__file-label:hover {
+    background-color: rgba(245, 245, 231, .5);
+}
+
+.form-img__file-label > svg {
+    position: absolute;
+  margin-top: 25px;
+    height: 50px;
+    width: 50px;
+    opacity: .7;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 25px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.form-img__file-label:hover > svg {
+    opacity: 1;
+}
+
+/* The image element is going to be positioned under the 
+label element, since the label is a see through, we're going 
+to be able to see the preview of the image. */
+.form-img__img-preview {
+    display: block;
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 20px 20px 20px 20px;
+background-color: rgb(243, 243, 243);
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.imgchoose{
+    margin-left: 50px;
+}
